@@ -6,16 +6,16 @@
 */
 
 
-#include "libft.h"
+#include "libft.h"       /* hna */
 
-t_list	*ft_lstnew(void *content)
+t_list	*ft_lstnew(void *content)   /* hna had content ra f parametre 3atin kipointi 3Lq Whd content  */
 {
-	t_list	*new;
+	t_list	*new;        /* db had t list hia type dial dik noeud li fiha content o next adress pointer  */
 
 	new = malloc(sizeof(t_list));
 	if (!new)
 		return (NULL);
-	new->content = content;
+	new->content = content;  /* hna ra dak content 3tinah DKCHI LI  kiponti 3lih dak lparametre dialna  */
 	new->next = NULL;
 	return (new);
 }
