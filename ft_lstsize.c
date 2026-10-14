@@ -9,7 +9,7 @@
 
 #include "libft.h"
 
-int	ft_lstsize(t_list *lst)
+int	ft_lstsize(t_list *lst)  /* hna l fonction katkhd pointer 3la awl element f linkdlist*/
 {
 	int	size;
 
